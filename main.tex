@@ -596,19 +596,16 @@ repository together with the cached data tables and the source of this report
 \begin{itemize}[leftmargin=*]
     \item \texttt{Protein.ipynb} builds the dataset: it downloads the UniProt
     records, filters and parses the GO annotations, selects the labels, and computes
-    the ESM-2 embeddings.
-    \item \texttt{protein\_go\_geometry.ipynb} contains every analysis reported
-    here: the probe, the rank checks, the spectrum, the three null-model families,
-    the label-structure analysis, and the figures. It starts from the cached arrays in
-    \texttt{protein\_dataset/} and runs in about 11 minutes on a CPU, dominated by
-    the 300 probe refits of the permutation nulls.
+    the ESM-2 embeddings. It needs network access and about 45 minutes on a CPU.
+    \item \texttt{protein\_go\_geometry.ipynb} reproduces every number and figure
+    in this report from the cached arrays in \texttt{protein\_dataset/}, in about
+    11 minutes on a CPU, dominated by the 300 probe refits of the permutation nulls.
 \end{itemize}
 
-The analysis notebook writes \texttt{results.json}, which holds the main statistics
-quoted in this report, and the five figures in \texttt{figures/}. Re-running it regenerates
-both, so the manuscript can be checked against the code by comparing
-\texttt{results.json} with the tables above. The probe weight matrix is saved to
-\texttt{protein\_dataset/probe\_weights.npy} so that later sections can be re-run
+The notebook writes \texttt{results.json} (the statistics quoted above) and the five
+figures in \texttt{figures/}; re-running it regenerates both, so the tables can be
+checked against the code directly. The probe weight matrix is saved to
+\texttt{protein\_dataset/probe\_weights.npy}, so the analysis can be resumed
 without refitting.
 
 \section{Conclusion}
