@@ -1,0 +1,155 @@
+{
+  "data": {
+    "n_proteins": 9895,
+    "n_features": 480,
+    "n_labels": 75,
+    "n_positives": 36188,
+    "mean_labels_per_protein": 3.657200574874878,
+    "n_proteins_with_label": 9786,
+    "n_terms_in_export": 1779,
+    "n_train": 7916,
+    "n_test": 1979
+  },
+  "probe": {
+    "mean_roc_auc": 0.7841453256012005,
+    "mean_average_precision": 0.22261515298787826,
+    "n_labels_scored": 75
+  },
+  "geometry": {
+    "rank_W": 75,
+    "rank_tolerance": 4.471710680778798e-12,
+    "sigma_1": 41.9558219909668,
+    "max_abs_cosine": 0.4176742434501648,
+    "max_cosine_pair": [
+      "GO:0005789",
+      "GO:0005783"
+    ],
+    "closest_pair_angle_deg": 65.31216040360037,
+    "closest_pair_sigma_ratio": 0.6409066462098932,
+    "mean_abs_cosine": 0.06316245347261429,
+    "min_cosine": -0.16089358925819397,
+    "max_cosine": 0.4176742434501648,
+    "effective_rank": 54.53968048095703,
+    "rank90": 49,
+    "rank95": 57,
+    "cumulative_energy": {
+      "1": 0.07629207521677017,
+      "5": 0.21565699577331543,
+      "10": 0.34383222460746765,
+      "20": 0.5467861294746399,
+      "30": 0.7018942832946777,
+      "40": 0.8212916254997253,
+      "50": 0.9090580344200134,
+      "60": 0.9708384275436401,
+      "75": 0.9999998807907104
+    },
+    "subset_ranks": [
+      {
+        "M": 2,
+        "mean rank": 2.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 3,
+        "mean rank": 3.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 5,
+        "mean rank": 5.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 10,
+        "mean rank": 10.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 20,
+        "mean rank": 20.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 40,
+        "mean rank": 40.0,
+        "rank-deficient subsets": "0/100"
+      },
+      {
+        "M": 75,
+        "mean rank": 75.0,
+        "rank-deficient subsets": "0/100"
+      }
+    ]
+  },
+  "nulls": {
+    "observed_effective_rank": 54.53968048095703,
+    "observed_rank90": 49,
+    "isotropic": {
+      "er_mean": 60.90574677999335,
+      "er_ci": [
+        60.66484413759973,
+        61.14165000833238
+      ],
+      "r90_mean": 51.959,
+      "r90_ci": [
+        51.0,
+        52.0
+      ],
+      "p_er": 0.000999000999000999,
+      "p_r90": 0.000999000999000999,
+      "n": 1000
+    },
+    "label_shuffle_raw": {
+      "er_mean": 52.508189067840576,
+      "er_ci": [
+        52.037206935882566,
+        53.02620429992676
+      ],
+      "r90_mean": 44.24,
+      "r90_ci": [
+        44.0,
+        45.0
+      ],
+      "p_er": 1.0,
+      "p_r90": 1.0,
+      "n": 200
+    },
+    "label_shuffle_matched": {
+      "er_mean": 57.74621921539307,
+      "er_ci": [
+        57.35987319946289,
+        58.158927822113036
+      ],
+      "r90_mean": 49.645,
+      "r90_ci": [
+        49.0,
+        50.0
+      ],
+      "p_er": 0.004975124378109453,
+      "p_r90": 0.3582089552238806,
+      "n": 200
+    },
+    "row_permutation": {
+      "er_mean": 54.321741638183596,
+      "er_ci": [
+        53.56741237640381,
+        54.98262195587158
+      ],
+      "r90_mean": 47.98,
+      "r90_ci": [
+        48.0,
+        48.0
+      ],
+      "p_er": 0.7326732673267327,
+      "p_r90": 1.0,
+      "n": 100
+    }
+  },
+  "labels": {
+    "spearman_rho": 0.5074014062349346,
+    "spearman_p": 1.7013484802521449e-181,
+    "partial_rho": 0.4889102825137766,
+    "partial_p": 1.0097300073373021e-166,
+    "n_pairs": 2775
+  }
+}

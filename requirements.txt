@@ -1,0 +1,12 @@
+# Core analysis (protein_go_geometry.ipynb)
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Data preparation (Protein.ipynb), optional if you use the cached dataset
+# requests>=2.31
+# torch>=2.2
+# fair-esm>=2.0
+# tqdm>=4.66

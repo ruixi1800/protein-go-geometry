@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Regenerable arrays (see README: rebuilt by Protein.ipynb)
+*.npy
+
+# Raw download and large caches
+uniprot_sprot.fasta.gz
+
+# Backups and duplicate exports
+*.bak
+Protein.ipynb.bak
+overleaf/
+overleaf.zip
+
+# Legacy figures from the first draft (kept locally, superseded by fig_*.png)
+figures/cumulative_spectral_energy.png
+figures/singular_value_spectrum.png
+figures/weight_similarity_vs_label_correlation.png
+
+# Scratch notebooks and fixtures from early exploration
+Untitled*.ipynb
+printNpy.py
+swissprot_5_proteins.csv
